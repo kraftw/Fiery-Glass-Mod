@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "fieryglass",
+  "version": "${version}",
+  "name": "Kraft's Fiery Glass Mod",
+  "description": "A mod designed to give an upgrade to coal found deep underground",
+  "authors": ["kraftw"],
+  "contact": {
+    "homepage": "https://github.com/kraftw/Krafts-Fiery-Glass-Mod",
+    "sources": "https://github.com/kraftw/Krafts-Fiery-Glass-Mod",
+    "issues": "https://github.com/kraftw/Krafts-Fiery-Glass-Mod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/fieryglass/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kraftw.fieryglass.FieryGlassMod"
+    ],
+    "fabric-datagen": [
+      "net.kraftw.fieryglass.FieryGlassModDataGenerator"
+    ],
+    "client": [
+      "net.kraftw.fieryglass.FieryGlassModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "fiery_glass",
+  "ingredient": {
+    "item": "fieryglass:deepslate_fiery_glass_ore"
+  },
+  "result": "fieryglass:fiery_glass_shard"
+}

@@ -1,0 +1,14 @@
+{
+  "modmenu.nameTranslation.fieryglass": "Kraft's Fiery Glass Mod",
+  "modmenu.descriptionTranslation.fieryglass": "A mod designed to give an upgrade to coal found deep underground",
+
+  "itemgroup.fiery_glass_group": "Kraft's Fiery Glass",
+
+  "item.fieryglass.fiery_glass_shard": "Fiery Glass Shard",
+
+  "block.fieryglass.fiery_torch": "Fiery Torch",
+  "block.fieryglass.fiery_glass": "Fiery Glass",
+  "block.fieryglass.fiery_glass_pane": "Fiery Glass Pane",
+  "block.fieryglass.fiery_lamp_block": "Fiery Lamp Block",
+  "block.fieryglass.deepslate_fiery_glass_ore": "Deepslate Fiery Glass Ore"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FIF",
+    "IGI",
+    "FIF"
+  ],
+  "key" : {
+    "F": {
+      "item": "fieryglass:fiery_glass_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "fieryglass:fiery_glass",
+    "count": 8
+  }
+}

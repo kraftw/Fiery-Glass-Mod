@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "F  ",
+    "S  ",
+    "   "
+  ],
+  "key" : {
+    "F": {
+      "item": "fieryglass:fiery_glass_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fieryglass:fiery_torch_item",
+    "count": 4
+  }
+}

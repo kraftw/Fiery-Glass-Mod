@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fieryglass:block/wall_fiery_torch"
+    },
+    "facing=north": {
+      "model": "fieryglass:block/wall_fiery_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "fieryglass:block/wall_fiery_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "fieryglass:block/wall_fiery_torch",
+      "y": 180
+    }
+  }
+}
