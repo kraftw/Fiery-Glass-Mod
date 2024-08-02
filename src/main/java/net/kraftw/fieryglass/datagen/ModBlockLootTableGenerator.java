@@ -14,8 +14,9 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
     public void generate() {
 
         // SELF DROPPING
-        addDrop(ModBlocks.FIERY_LAMP_BLOCK);
+        addDrop(ModBlocks.FIERY_BLOCK);
         addDrop(ModBlocks.FIERY_TORCH);
+        addDrop(ModBlocks.FIERY_LANTERN);
 
     }
 

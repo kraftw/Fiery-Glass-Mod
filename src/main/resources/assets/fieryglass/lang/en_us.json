@@ -9,6 +9,7 @@
   "block.fieryglass.fiery_torch": "Fiery Torch",
   "block.fieryglass.fiery_glass": "Fiery Glass",
   "block.fieryglass.fiery_glass_pane": "Fiery Glass Pane",
-  "block.fieryglass.fiery_lamp_block": "Fiery Lamp Block",
-  "block.fieryglass.deepslate_fiery_glass_ore": "Deepslate Fiery Glass Ore"
+  "block.fieryglass.fiery_block": "Fiery Block",
+  "block.fieryglass.deepslate_fiery_glass_ore": "Deepslate Fiery Glass Ore",
+  "block.fieryglass.fiery_lantern": "Fiery Lantern"
 }

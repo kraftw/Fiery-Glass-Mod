@@ -25,13 +25,15 @@ public class ModBlocks {
             new FieryGlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(12).nonOpaque()));
     public static final Block FIERY_GLASS_PANE = registerBlock("fiery_glass_pane",
             new FieryGlassPaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(12).nonOpaque()));
+    public static final Block FIERY_LANTERN = registerBlock("fiery_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     // TORCH
     public static final Block FIERY_TORCH = registerBlock("fiery_torch",
             new TorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
     public static final Block WALL_FIERY_TORCH = registerBlock("wall_fiery_torch",
             new WallTorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).dropsLike(Blocks.TORCH).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
     // COMPACTING
-    public static final Block FIERY_LAMP_BLOCK = registerBlock("fiery_lamp_block",
+    public static final Block FIERY_BLOCK = registerBlock("fiery_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     // ORE
     public static final Block DEEPSLATE_FIERY_GLASS_ORE = registerBlock("deepslate_fiery_glass_ore",

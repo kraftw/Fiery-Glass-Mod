@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fiery_lamp_block": {
+    "has_fiery_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "fieryglass:fiery_lamp_block"
+              "fieryglass:fiery_block"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_fiery_lamp_block",
+      "has_fiery_block",
       "has_the_recipe"
     ]
   ],

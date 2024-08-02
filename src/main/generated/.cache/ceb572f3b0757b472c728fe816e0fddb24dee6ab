@@ -1,3 +1,4 @@
-// 1.20.1	2024-07-22T12:57:24.120697	Kraft's Fiery Glass Mod/Block Loot Tables
-d27f1a41314d0b9140585ffbc76284ccaf57167a data\fieryglass\loot_tables\blocks\fiery_lamp_block.json
+// 1.20.1	2024-08-02T18:22:57.4327031	Kraft's Fiery Glass Mod/Block Loot Tables
+5f2b4fbd890bea7f8913fb9d362a8af87e0e8e71 data\fieryglass\loot_tables\blocks\fiery_block.json
 b924502fcdda425d2390c652406061568ca2490a data\fieryglass\loot_tables\blocks\fiery_torch.json
+becb4126b555a9b3252a7f8b07a91c6c0da9b713 data\fieryglass\loot_tables\blocks\fiery_lantern.json

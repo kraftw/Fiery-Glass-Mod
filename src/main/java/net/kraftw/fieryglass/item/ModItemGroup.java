@@ -17,10 +17,11 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.FIERY_GLASS_SHARD)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.FIERY_GLASS_SHARD);
+                        entries.add(ModBlocks.FIERY_BLOCK);
                         entries.add(ModItems.FIERY_TORCH_ITEM);
                         entries.add(ModBlocks.FIERY_GLASS);
                         entries.add(ModBlocks.FIERY_GLASS_PANE);
-                        entries.add(ModBlocks.FIERY_LAMP_BLOCK);
+                        entries.add(ModBlocks.FIERY_LANTERN);
                         entries.add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
 
                     }).build());

@@ -54,7 +54,7 @@ public class ModRegistries {
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
         registry.add(ModItems.FIERY_GLASS_SHARD, 2400);
-        registry.add(ModBlocks.FIERY_LAMP_BLOCK, 24000);
+        registry.add(ModBlocks.FIERY_BLOCK, 24000);
 
     }
 

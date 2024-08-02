@@ -18,8 +18,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
         // CUBES
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIERY_LAMP_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIERY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIERY_LANTERN);
 
         // GLASS/PANES
         blockStateModelGenerator.registerGlassPane(ModBlocks.FIERY_GLASS, ModBlocks.FIERY_GLASS_PANE);
