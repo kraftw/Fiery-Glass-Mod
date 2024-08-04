@@ -2,6 +2,7 @@ package net.kraftw.fieryglass.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.kraftw.fieryglass.block.ModBlocks;
+import net.kraftw.fieryglass.item.custom.FieryPickaxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.VerticallyAttachableBlockItem;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item FIERY_TORCH_ITEM = registerItem("fiery_torch_item",
             new VerticallyAttachableBlockItem(ModBlocks.FIERY_TORCH, ModBlocks.WALL_FIERY_TORCH, new FabricItemSettings(), Direction.DOWN));
+
+    // FIERY PICKAXE
+    public static final Item FIERY_PICKAXE = registerItem("fiery_pickaxe",
+            new FieryPickaxeItem(new FabricItemSettings()));
 
 
 

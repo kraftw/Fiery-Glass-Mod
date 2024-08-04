@@ -5,6 +5,8 @@
   "itemgroup.fiery_glass_group": "Kraft's Fiery Glass",
 
   "item.fieryglass.fiery_glass_shard": "Fiery Glass Shard",
+  "item.fieryglass.fiery_pickaxe": "Fiery Pickaxe",
+  "item.fieryglass.fiery_pickaxe.tooltip": "A molten pick hot enough to melt the strongest of metals",
 
   "block.fieryglass.fiery_torch": "Fiery Torch",
   "block.fieryglass.fiery_glass": "Fiery Glass",

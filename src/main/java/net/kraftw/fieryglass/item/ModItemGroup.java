@@ -23,6 +23,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.FIERY_GLASS);
                         entries.add(ModBlocks.FIERY_GLASS_PANE);
                         entries.add(ModBlocks.FIERY_LANTERN);
+                        entries.add(ModItems.FIERY_PICKAXE);
                         entries.add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
 
                     }).build());

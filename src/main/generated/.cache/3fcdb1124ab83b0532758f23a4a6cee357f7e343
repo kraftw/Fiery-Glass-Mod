@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-03T22:39:30.642207	Kraft's Fiery Glass Mod/Model Definitions
+// 1.20.1	2024-08-04T00:14:56.8358389	Kraft's Fiery Glass Mod/Model Definitions
 71044e150000978fce9877057ca42c1f47ac0089 assets\fieryglass\models\block\fiery_glass.json
 6f86dda1fda0e8eada037869ece264968c500d49 assets\fieryglass\models\block\fiery_glass_pane_side.json
 755fc61ae18345b8b230fd31c19ebc1969f5cf77 assets\fieryglass\models\block\fiery_glass_pane_noside_alt.json
@@ -17,6 +17,7 @@ d557276d69e39a26906ee507def59f900a01c63f assets\fieryglass\models\item\fiery_lan
 ade1831cf4f93cbde50f2d6d0f62bd4a44f2980b assets\fieryglass\models\item\fiery_torch_item.json
 ffc685fd85dec432d741174b77d00cbd6a18e4da assets\fieryglass\models\block\fiery_glass_pane_noside.json
 aee7675af9e769b19d479f0ecc44446ac40c0cc9 assets\fieryglass\blockstates\fiery_block.json
+e247865d9c1493facb79ea91f393e4e5603cbc35 assets\fieryglass\models\item\fiery_pickaxe.json
 33ba94b18e801c772218a59c7e092759db7d671b assets\fieryglass\models\block\fiery_glass_pane_side_alt.json
 5eb6b87881eb27b3bb84bc189ffd6a37dcff93bd assets\fieryglass\blockstates\fiery_glass.json
 61372a8965adad27ed84374303cd3106777f8425 assets\fieryglass\models\item\fiery_glass_pane.json

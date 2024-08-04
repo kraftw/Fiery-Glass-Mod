@@ -34,6 +34,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.FIERY_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIERY_PICKAXE, Models.GENERATED);
 
     }
 
