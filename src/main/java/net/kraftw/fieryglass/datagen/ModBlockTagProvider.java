@@ -2,6 +2,7 @@ package net.kraftw.fieryglass.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fabricmc.fabric.api.tag.convention.v1.ConventionalBlockTags;
 import net.kraftw.fieryglass.block.ModBlocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -24,6 +25,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FIERY_GLASS_LANTERN);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
+
+        getOrCreateTagBuilder(ConventionalBlockTags.ORES)
                 .add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
 
     }
