@@ -3,8 +3,8 @@
   "category": "misc",
   "pattern": [
     "FFF",
-    " BF",
-    "B  "
+    " B ",
+    " B "
   ],
   "key" : {
     "F": {
