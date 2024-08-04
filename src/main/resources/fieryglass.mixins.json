@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kraftw.fieryglass.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LootTableMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
