@@ -15,5 +15,8 @@
   "block.fieryglass.fiery_glass_lantern": "Fiery Glass Lantern",
 
   "advancements.fieryglass.fiery_glass.title": "Light Work, All Refraction",
-  "advancements.fieryglass.fiery_glass.description": "Obtain Fiery Glass, a glowing glass block!"
+  "advancements.fieryglass.fiery_glass.description": "Obtain Fiery Glass, a glowing glass block!",
+
+  "painting.fieryglass.depths.title": "Depths",
+  "painting.fieryglass.depths.author": "kraftw"
 }

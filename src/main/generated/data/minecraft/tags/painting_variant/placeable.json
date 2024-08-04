@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fieryglass:depths",
+      "required": false
+    }
+  ]
+}
