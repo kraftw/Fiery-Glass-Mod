@@ -3,6 +3,7 @@ package net.kraftw.fieryglass.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kraftw.fieryglass.block.custom.FieryGlassBlock;
+import net.kraftw.fieryglass.block.custom.FieryGlassLanternBlock;
 import net.kraftw.fieryglass.block.custom.FieryGlassPaneBlock;
 import net.kraftw.fieryglass.particle.ModParticles;
 import net.minecraft.block.*;
@@ -25,7 +26,7 @@ public class ModBlocks {
     public static final Block FIERY_LANTERN = registerBlock("fiery_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     public static final Block FIERY_GLASS_LANTERN = registerBlock("fiery_glass_lantern",
-            new LanternBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(15)));
+            new FieryGlassLanternBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(15)));
     // TORCH
     public static final Block FIERY_TORCH = registerBlock("fiery_torch",
             new TorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
