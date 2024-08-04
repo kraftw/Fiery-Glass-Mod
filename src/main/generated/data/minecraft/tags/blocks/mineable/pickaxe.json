@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "fieryglass:deepslate_fiery_glass_ore"
+    "fieryglass:deepslate_fiery_glass_ore",
+    "fieryglass:fiery_block",
+    "fieryglass:fiery_lantern",
+    "fieryglass:fiery_glass_lantern"
   ]
 }

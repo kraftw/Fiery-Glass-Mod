@@ -37,6 +37,7 @@ public class ModRegistries {
 
         registry.putBlock(ModBlocks.FIERY_TORCH, RenderLayer.getCutout());
         registry.putBlock(ModBlocks.WALL_FIERY_TORCH, RenderLayer.getCutout());
+        registry.putBlock(ModBlocks.FIERY_GLASS_LANTERN, RenderLayer.getCutout());
 
     }
 
