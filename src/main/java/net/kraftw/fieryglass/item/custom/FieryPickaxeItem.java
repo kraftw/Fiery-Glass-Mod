@@ -4,7 +4,9 @@ import com.mojang.datafixers.util.Pair;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.kraftw.fieryglass.item.ModItems;
 import net.kraftw.fieryglass.item.ModToolMaterial;
+import net.kraftw.fieryglass.particle.ModParticles;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.entity.ExperienceOrbEntity;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.SimpleInventory;
@@ -24,6 +26,7 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
@@ -51,6 +54,12 @@ public class FieryPickaxeItem extends PickaxeItem {
         return super.postHit(stack, target, attacker);
     }
 
+    @Override
+    public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
+        spawnBlockBreakingParticles(miner, pos);
+        return super.postMine(stack, world, state, pos, miner);
+    }
+
     // CREDIT GOES TO OCHOTONIDA FOR THE AUTOSMELT IMPLEMENTATION https://github.com/ochotonida/artifacts
     public static ObjectArrayList<ItemStack> getModifiedBlockDrops(ObjectArrayList<ItemStack> items, LootContext context, TagKey<Block> ores, TagKey<Item> rawOres) {
         if (context.hasParameter(LootContextParameters.BLOCK_STATE)
@@ -61,6 +70,7 @@ public class FieryPickaxeItem extends PickaxeItem {
                 && ((LivingEntity) context.get(LootContextParameters.THIS_ENTITY)).isHolding(ModItems.FIERY_PICKAXE)
                 && context.get(LootContextParameters.BLOCK_STATE).isIn(ores)
         ) {
+
             ObjectArrayList<ItemStack> result = new ObjectArrayList<>(items.size());
             float experience = 0;
             for (ItemStack item : items) {
@@ -108,6 +118,16 @@ public class FieryPickaxeItem extends PickaxeItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.fieryglass.fiery_pickaxe.tooltip").formatted(Formatting.GOLD));
         super.appendTooltip(stack, world, tooltip, context);
+    }
+
+    private void spawnBlockBreakingParticles(LivingEntity miner, BlockPos blockPos) {
+        for (int i = 0; i < 20; i++) {
+            ServerWorld serverWorld = (ServerWorld) miner.getEntityWorld();
+
+            serverWorld.spawnParticles(ModParticles.FIERY_FLAME_PARTICLE,
+                    blockPos.getX(), blockPos.getY() + 0.25d, blockPos.getZ(), 1,
+                    Math.cos(i * 18) * 0.1d, 0.1d, Math.sin(i * 18) * 0.1d, 0.25f);
+        }
     }
 
 }
