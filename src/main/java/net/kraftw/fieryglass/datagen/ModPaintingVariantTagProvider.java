@@ -20,7 +20,8 @@ public class ModPaintingVariantTagProvider extends TagProvider<PaintingVariant> 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup lookup) {
         getOrCreateTagBuilder(PaintingVariantTags.PLACEABLE)
-                .addOptional(new Identifier(FieryGlassMod.MOD_ID, "depths"));
+                .addOptional(new Identifier(FieryGlassMod.MOD_ID, "depths"))
+                .addOptional(new Identifier(FieryGlassMod.MOD_ID, "poster"));
     }
 
 }

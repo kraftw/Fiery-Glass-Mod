@@ -4,6 +4,10 @@
     {
       "id": "fieryglass:depths",
       "required": false
+    },
+    {
+      "id": "fieryglass:poster",
+      "required": false
     }
   ]
 }

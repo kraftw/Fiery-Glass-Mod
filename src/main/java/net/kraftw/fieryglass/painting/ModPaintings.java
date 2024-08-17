@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 public class ModPaintings {
 
     public static final PaintingVariant DEPTHS = registerPainting("depths", new PaintingVariant(16, 48));
+    public static final PaintingVariant POSTER = registerPainting("poster", new PaintingVariant(32, 48));
 
     private static PaintingVariant registerPainting(String name, PaintingVariant paintingVariant) {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(FieryGlassMod.MOD_ID, name), paintingVariant);
