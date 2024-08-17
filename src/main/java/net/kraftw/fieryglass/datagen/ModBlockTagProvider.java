@@ -21,6 +21,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE)
                 .add(ModBlocks.FIERY_BLOCK)
+                .add(ModBlocks.FIERY_STAIRS)
+                .add(ModBlocks.FIERY_SLAB)
                 .add(ModBlocks.FIERY_LANTERN)
                 .add(ModBlocks.FIERY_GLASS_LANTERN);
 

@@ -17,8 +17,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
+        // TEXTURE POOL
+        BlockStateModelGenerator.BlockTexturePool fieryBlockTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FIERY_BLOCK);
+
         // CUBES
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIERY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIERY_LANTERN);
 
@@ -27,6 +29,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         // TORCHES
         blockStateModelGenerator.registerTorch(ModBlocks.FIERY_TORCH, ModBlocks.WALL_FIERY_TORCH);
+
+        // STAIRS
+        fieryBlockTexturePool.stairs(ModBlocks.FIERY_STAIRS);
+
+        // SLABS
+        fieryBlockTexturePool.slab(ModBlocks.FIERY_SLAB);
 
     }
 

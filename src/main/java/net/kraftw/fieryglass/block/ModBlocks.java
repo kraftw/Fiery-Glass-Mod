@@ -32,9 +32,13 @@ public class ModBlocks {
             new TorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
     public static final Block WALL_FIERY_TORCH = registerBlock("wall_fiery_torch",
             new WallTorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).dropsLike(Blocks.TORCH).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
-    // COMPACTING
+    // COMPACTING + VARIANTS
     public static final Block FIERY_BLOCK = registerBlock("fiery_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    public static final Block FIERY_STAIRS = registerBlock("fiery_stairs",
+            new StairsBlock(ModBlocks.FIERY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.FIERY_BLOCK)));
+    public static final Block FIERY_SLAB = registerBlock("fiery_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.FIERY_BLOCK)));
     // ORE
     public static final Block DEEPSLATE_FIERY_GLASS_ORE = registerBlock("deepslate_fiery_glass_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE).luminance(8)));

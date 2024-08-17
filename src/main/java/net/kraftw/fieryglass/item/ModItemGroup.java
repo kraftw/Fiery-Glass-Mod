@@ -18,6 +18,8 @@ public class ModItemGroup {
 
                         entries.add(ModItems.FIERY_GLASS_SHARD);
                         entries.add(ModBlocks.FIERY_BLOCK);
+                        entries.add(ModBlocks.FIERY_STAIRS);
+                        entries.add(ModBlocks.FIERY_SLAB);
                         entries.add(ModItems.FIERY_TORCH_ITEM);
                         entries.add(ModBlocks.FIERY_GLASS_LANTERN);
                         entries.add(ModBlocks.FIERY_GLASS);

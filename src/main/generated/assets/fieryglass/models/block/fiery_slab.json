@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "fieryglass:block/fiery_block",
+    "side": "fieryglass:block/fiery_block",
+    "top": "fieryglass:block/fiery_block"
+  }
+}

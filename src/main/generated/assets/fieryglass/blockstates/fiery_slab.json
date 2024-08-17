@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fieryglass:block/fiery_slab"
+    },
+    "type=double": {
+      "model": "fieryglass:block/fiery_block"
+    },
+    "type=top": {
+      "model": "fieryglass:block/fiery_slab_top"
+    }
+  }
+}
