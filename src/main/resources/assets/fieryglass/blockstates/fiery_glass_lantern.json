@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "fieryglass:block/fiery_glass_lantern"
+    },
+    "hanging=true": {
+      "model": "fieryglass:block/fiery_glass_lantern_hanging"
+    }
+  }
+}

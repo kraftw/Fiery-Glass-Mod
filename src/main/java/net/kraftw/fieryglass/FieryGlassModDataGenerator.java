@@ -19,6 +19,8 @@ public class FieryGlassModDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModBlockTagProvider::new);
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeGenerator::new);
+        pack.addProvider(ModAdvancementProvider::new);
+        pack.addProvider(ModPaintingVariantTagProvider::new);
         pack.addProvider(ModWorldGenerator::new);
 
     }

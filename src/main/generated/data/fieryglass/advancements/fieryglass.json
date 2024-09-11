@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "has_fiery_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fieryglass:fiery_glass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "fieryglass:textures/block/fiery_block.png",
+    "description": {
+      "translate": "advancements.fieryglass.fiery_glass.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "fieryglass:fiery_glass_shard"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.fieryglass.fiery_glass.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_fiery_glass"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " F ",
+    "FGF",
+    " F "
+  ],
+  "key" : {
+    "F": {
+      "item": "fieryglass:fiery_glass_shard"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "fieryglass:fiery_lantern",
+    "count": 1
+  }
+}

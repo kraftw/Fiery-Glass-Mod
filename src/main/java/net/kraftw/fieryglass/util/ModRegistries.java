@@ -37,6 +37,7 @@ public class ModRegistries {
 
         registry.putBlock(ModBlocks.FIERY_TORCH, RenderLayer.getCutout());
         registry.putBlock(ModBlocks.WALL_FIERY_TORCH, RenderLayer.getCutout());
+        registry.putBlock(ModBlocks.FIERY_GLASS_LANTERN, RenderLayer.getCutout());
 
     }
 
@@ -54,7 +55,7 @@ public class ModRegistries {
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
         registry.add(ModItems.FIERY_GLASS_SHARD, 2400);
-        registry.add(ModBlocks.FIERY_LAMP_BLOCK, 24000);
+        registry.add(ModBlocks.FIERY_BLOCK, 24000);
 
     }
 

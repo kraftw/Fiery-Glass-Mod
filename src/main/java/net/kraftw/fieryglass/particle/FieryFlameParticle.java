@@ -17,7 +17,7 @@ public class FieryFlameParticle extends SpriteBillboardParticle {
         this.velocityY = yDirection;
         this.velocityZ = zDirection;
 
-        this.scale *= 1.25f;
+        this.scale *= 0.75f;
         this.maxAge = 10;
         this.setSpriteForAge(spriteSet);
 

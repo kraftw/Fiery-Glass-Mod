@@ -22,7 +22,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         // -COMPACTING RECIPES-
         // FIERY SHARDS <-> FIERY LAMP BLOCk
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.FIERY_GLASS_SHARD,
-                RecipeCategory.MISC, ModBlocks.FIERY_LAMP_BLOCK);
+                RecipeCategory.MISC, ModBlocks.FIERY_BLOCK);
 
         // -SMELTING RECIPES-
         // DEEPSLATE FIERY GLASS ORE -> FIERY GLASS SHARD

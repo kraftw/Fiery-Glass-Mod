@@ -3,12 +3,10 @@ package net.kraftw.fieryglass.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kraftw.fieryglass.block.custom.FieryGlassBlock;
+import net.kraftw.fieryglass.block.custom.FieryGlassLanternBlock;
 import net.kraftw.fieryglass.block.custom.FieryGlassPaneBlock;
 import net.kraftw.fieryglass.particle.ModParticles;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.TorchBlock;
-import net.minecraft.block.WallTorchBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -25,14 +23,22 @@ public class ModBlocks {
             new FieryGlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(12).nonOpaque()));
     public static final Block FIERY_GLASS_PANE = registerBlock("fiery_glass_pane",
             new FieryGlassPaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(12).nonOpaque()));
+    public static final Block FIERY_LANTERN = registerBlock("fiery_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    public static final Block FIERY_GLASS_LANTERN = registerBlock("fiery_glass_lantern",
+            new FieryGlassLanternBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(15)));
     // TORCH
     public static final Block FIERY_TORCH = registerBlock("fiery_torch",
             new TorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
     public static final Block WALL_FIERY_TORCH = registerBlock("wall_fiery_torch",
             new WallTorchBlock(FabricBlockSettings.create().noCollision().breakInstantly().luminance(15).sounds(BlockSoundGroup.WOOD).dropsLike(Blocks.TORCH).pistonBehavior(PistonBehavior.DESTROY), ModParticles.FIERY_FLAME_PARTICLE));
-    // COMPACTING
-    public static final Block FIERY_LAMP_BLOCK = registerBlock("fiery_lamp_block",
+    // COMPACTING + VARIANTS
+    public static final Block FIERY_BLOCK = registerBlock("fiery_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    public static final Block FIERY_STAIRS = registerBlock("fiery_stairs",
+            new StairsBlock(ModBlocks.FIERY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.FIERY_BLOCK)));
+    public static final Block FIERY_SLAB = registerBlock("fiery_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.FIERY_BLOCK)));
     // ORE
     public static final Block DEEPSLATE_FIERY_GLASS_ORE = registerBlock("deepslate_fiery_glass_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE).luminance(8)));

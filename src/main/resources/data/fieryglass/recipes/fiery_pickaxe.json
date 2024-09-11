@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    " B ",
+    " B "
+  ],
+  "key" : {
+    "F": {
+      "item": "fieryglass:fiery_glass_shard"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "fieryglass:fiery_pickaxe",
+    "count": 1
+  }
+}

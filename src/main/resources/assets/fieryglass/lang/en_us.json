@@ -5,10 +5,25 @@
   "itemgroup.fiery_glass_group": "Kraft's Fiery Glass",
 
   "item.fieryglass.fiery_glass_shard": "Fiery Glass Shard",
+  "item.fieryglass.fiery_pickaxe": "Fiery Pickaxe",
+  "item.fieryglass.fiery_pickaxe.tooltip": "A molten pick hot enough to melt the strongest of ores",
 
   "block.fieryglass.fiery_torch": "Fiery Torch",
   "block.fieryglass.fiery_glass": "Fiery Glass",
   "block.fieryglass.fiery_glass_pane": "Fiery Glass Pane",
-  "block.fieryglass.fiery_lamp_block": "Fiery Lamp Block",
-  "block.fieryglass.deepslate_fiery_glass_ore": "Deepslate Fiery Glass Ore"
+  "block.fieryglass.fiery_block": "Fiery Block",
+  "block.fieryglass.fiery_stairs": "Fiery Stairs",
+  "block.fieryglass.fiery_slab": "Fiery Slab",
+  "block.fieryglass.deepslate_fiery_glass_ore": "Deepslate Fiery Glass Ore",
+  "block.fieryglass.fiery_lantern": "Fiery Lantern",
+  "block.fieryglass.fiery_glass_lantern": "Fiery Glass Lantern",
+
+  "advancements.fieryglass.fiery_glass.title": "Light Work, All Refraction",
+  "advancements.fieryglass.fiery_glass.description": "Obtain Fiery Glass, a glowing glass block!",
+
+  "painting.fieryglass.depths.title": "Depths",
+  "painting.fieryglass.depths.author": "kraftw",
+
+  "painting.fieryglass.poster.title": "Poster",
+  "painting.fieryglass.poster.author": "kraftw"
 }

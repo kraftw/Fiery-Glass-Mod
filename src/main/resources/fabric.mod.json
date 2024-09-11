@@ -24,6 +24,9 @@
       "net.kraftw.fieryglass.FieryGlassModClient"
     ]
   },
+  "mixins": [
+    "fieryglass.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

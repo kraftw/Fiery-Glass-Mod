@@ -2,10 +2,12 @@ package net.kraftw.fieryglass.block.custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PaneBlock;
+import net.minecraft.block.Stainable;
+import net.minecraft.util.DyeColor;
 
 import java.util.function.ToIntFunction;
 
-public class FieryGlassPaneBlock extends PaneBlock {
+public class FieryGlassPaneBlock extends PaneBlock implements Stainable {
 
     public FieryGlassPaneBlock(Settings settings) {
 
@@ -19,4 +21,9 @@ public class FieryGlassPaneBlock extends PaneBlock {
 
     }
 
+    @Override
+    public DyeColor getColor() {
+        return DyeColor.ORANGE;
+    }
+    
 }
