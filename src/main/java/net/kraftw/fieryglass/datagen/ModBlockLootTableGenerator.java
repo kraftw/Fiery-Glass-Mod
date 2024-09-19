@@ -20,6 +20,8 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FIERY_TORCH);
         addDrop(ModBlocks.FIERY_LANTERN);
         addDrop(ModBlocks.FIERY_GLASS_LANTERN);
+        addDrop(ModBlocks.FIERY_GLASS_DOOR, doorDrops(ModBlocks.FIERY_GLASS_DOOR));
+        addDrop(ModBlocks.FIERY_GLASS_TRAPDOOR);
 
     }
 

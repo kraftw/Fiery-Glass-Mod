@@ -47,6 +47,8 @@ public class ModRegistries {
 
         registry.putBlock(ModBlocks.FIERY_GLASS, RenderLayer.getTranslucent());
         registry.putBlock(ModBlocks.FIERY_GLASS_PANE, RenderLayer.getTranslucent());
+        registry.putBlock(ModBlocks.FIERY_GLASS_DOOR, RenderLayer.getTranslucent());
+        registry.putBlock(ModBlocks.FIERY_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
 
     }
 

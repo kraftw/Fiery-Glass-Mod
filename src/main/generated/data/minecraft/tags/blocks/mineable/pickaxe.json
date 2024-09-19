@@ -6,6 +6,8 @@
     "fieryglass:fiery_stairs",
     "fieryglass:fiery_slab",
     "fieryglass:fiery_lantern",
-    "fieryglass:fiery_glass_lantern"
+    "fieryglass:fiery_glass_lantern",
+    "fieryglass:fiery_glass_door",
+    "fieryglass:fiery_glass_trapdoor"
   ]
 }

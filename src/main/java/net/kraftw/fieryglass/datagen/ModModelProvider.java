@@ -36,6 +36,12 @@ public class ModModelProvider extends FabricModelProvider {
         // SLABS
         fieryBlockTexturePool.slab(ModBlocks.FIERY_SLAB);
 
+        // DOORS
+        blockStateModelGenerator.registerDoor(ModBlocks.FIERY_GLASS_DOOR);
+
+        // TRAPDOORS
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.FIERY_GLASS_TRAPDOOR);
+
     }
 
     @Override

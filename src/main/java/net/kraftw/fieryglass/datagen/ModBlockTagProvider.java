@@ -24,7 +24,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FIERY_STAIRS)
                 .add(ModBlocks.FIERY_SLAB)
                 .add(ModBlocks.FIERY_LANTERN)
-                .add(ModBlocks.FIERY_GLASS_LANTERN);
+                .add(ModBlocks.FIERY_GLASS_LANTERN)
+                .add(ModBlocks.FIERY_GLASS_DOOR)
+                .add(ModBlocks.FIERY_GLASS_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);

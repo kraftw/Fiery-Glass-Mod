@@ -17,6 +17,8 @@
   "block.fieryglass.deepslate_fiery_glass_ore": "Deepslate Fiery Glass Ore",
   "block.fieryglass.fiery_lantern": "Fiery Lantern",
   "block.fieryglass.fiery_glass_lantern": "Fiery Glass Lantern",
+  "block.fieryglass.fiery_glass_trapdoor": "fiery Glass Trapdoor",
+  "block.fieryglass.fiery_glass_door": "Fiery Glass Door",
 
   "advancements.fieryglass.fiery_glass.title": "Light Work, All Refraction",
   "advancements.fieryglass.fiery_glass.description": "Obtain Fiery Glass, a glowing glass block!",

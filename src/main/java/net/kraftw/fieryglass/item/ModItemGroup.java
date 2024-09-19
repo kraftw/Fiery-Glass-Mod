@@ -25,6 +25,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.FIERY_BLOCK);
                         entries.add(ModBlocks.FIERY_STAIRS);
                         entries.add(ModBlocks.FIERY_SLAB);
+                        entries.add(ModBlocks.FIERY_GLASS_TRAPDOOR);
+                        entries.add(ModBlocks.FIERY_GLASS_DOOR);
                         entries.add(ModItems.FIERY_PICKAXE);
                         entries.add(ModBlocks.DEEPSLATE_FIERY_GLASS_ORE);
 
